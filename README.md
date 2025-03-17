@@ -55,12 +55,19 @@ A Python script for searching Bitcoin blockchain transactions for specific patte
 ## Requirements
 
 - Python 3.x
-- requests library
+- Dependencies listed in requirements.txt
 
 ## Installation
 
+1. Clone the repository:
 ```bash
-pip install requests
+git clone https://github.com/codenlighten/block_py_search.git
+cd block_py_search
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -69,7 +76,7 @@ pip install requests
 python3 bit_filter.py
 ```
 
-By default, the script searches blocks 0-10 for a placeholder pattern. You can modify the pattern and block range in the script.
+By default, the script searches blocks 0-100 for a placeholder pattern. You can modify the pattern and block range in the script.
 
 ## License
 
