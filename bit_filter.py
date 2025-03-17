@@ -62,9 +62,9 @@ def analyze_early_blocks(start_height, end_height):
     return matches
 
 def main():
-    # Analyze Genesis block and first few blocks
-    START_HEIGHT = 0  # Genesis block
-    END_HEIGHT = 10   # Adjust as needed
+    # Analyze Genesis block through block 100
+    START_HEIGHT = 0    # Genesis block
+    END_HEIGHT = 100   # Extended range
     
     matches = analyze_early_blocks(START_HEIGHT, END_HEIGHT)
     
